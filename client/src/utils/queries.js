@@ -6,6 +6,13 @@ query me {
     username
     email
     bookCount
-    savedBooks
+    savedBooks {
+        bookId
+        title
+        authors
+        description
+        image
+        link
+	}
 }
 `;
